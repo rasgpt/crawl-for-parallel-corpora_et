@@ -104,8 +104,7 @@ def get_book_data(lang):
         file_book.close()
 
 if __name__ == '__main__':
-    #print(get_book_data('english'))
-    #print(get_book_data('amharic'))
-    #print(get_book_data('english'))
-    #print(get_book_data('tigrigna'))
+    print(get_book_data('english'))
+    print(get_book_data('amharic'))
+    print(get_book_data('tigrigna'))
     print(get_book_data('oromifa'))
